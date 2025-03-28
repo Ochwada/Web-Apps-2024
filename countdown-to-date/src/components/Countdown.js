@@ -18,7 +18,7 @@ function calculateTimeLeft(now, targetDate) {
 }
 
 function Countdown() {
-    const targetDate = new Date("2025-05-21");
+    const targetDate = new Date("2025-05-07");
     const [now, setNow] = useState(new Date()); // State to keep track of the current time
     const [timeLeft, setTimeLeft] = useState(calculateTimeLeft(new Date(), targetDate));
 
